@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="4dp">
+
+    <TextView
+        android:id="@+id/tv_position"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/tv_team_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="13sp"
+        android:text="Brazil"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <TextView android:id="@+id/tv_played"  android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textSize="13sp" android:text="3" />
+    <TextView android:id="@+id/tv_won"     android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textSize="13sp" android:text="2" />
+    <TextView android:id="@+id/tv_drawn"   android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textSize="13sp" android:text="1" />
+    <TextView android:id="@+id/tv_lost"    android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textSize="13sp" android:text="0" />
+    <TextView android:id="@+id/tv_g_d"     android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textSize="13sp" android:text="+3" />
+    <TextView android:id="@+id/tv_points"  android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textSize="13sp" android:textStyle="bold" android:text="7" />
+</LinearLayout>

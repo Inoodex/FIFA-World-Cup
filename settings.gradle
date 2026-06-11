@@ -1,0 +1,2 @@
+rootProject.name = "WorldCup2026"
+include ':app'

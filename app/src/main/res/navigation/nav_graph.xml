@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fixturesFragment">
+
+    <fragment
+        android:id="@+id/fixturesFragment"
+        android:name="com.worldcup2026.app.ui.fixtures.FixturesFragment"
+        android:label="Fixtures" />
+
+    <fragment
+        android:id="@+id/standingsFragment"
+        android:name="com.worldcup2026.app.ui.standings.StandingsFragment"
+        android:label="Standings" />
+
+    <fragment
+        android:id="@+id/teamsFragment"
+        android:name="com.worldcup2026.app.ui.teams.TeamsFragment"
+        android:label="Teams" />
+
+    <fragment
+        android:id="@+id/knockoutFragment"
+        android:name="com.worldcup2026.app.ui.knockout.KnockoutFragment"
+        android:label="Knockout" />
+
+</navigation>

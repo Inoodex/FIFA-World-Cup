@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fixturesFragment"
+        android:icon="@drawable/ic_fixtures"
+        android:title="Fixtures" />
+    <item
+        android:id="@+id/standingsFragment"
+        android:icon="@drawable/ic_standings"
+        android:title="Standings" />
+    <item
+        android:id="@+id/teamsFragment"
+        android:icon="@drawable/ic_teams"
+        android:title="Teams" />
+    <item
+        android:id="@+id/knockoutFragment"
+        android:icon="@drawable/ic_knockout"
+        android:title="Knockout" />
+</menu>
